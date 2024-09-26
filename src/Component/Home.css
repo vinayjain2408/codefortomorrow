@@ -1,0 +1,13 @@
+.home-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .left-side {
+    flex: 0 0 30%;
+  }
+  
+  .right-side {
+    flex: 0 0 70%; 
+  }
+  

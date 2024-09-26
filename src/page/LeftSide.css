@@ -1,0 +1,69 @@
+.left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .user-card {
+    border-radius: 12px;
+  }
+  
+  .toggle-card {
+    text-align: center;
+    border-radius: 12px;
+  }
+  
+  .toggle-buttons {
+    margin-top: 10px;
+  }
+  
+  .feedback-card {
+    text-align: center;
+    border-radius: 12px;
+  }
+  
+  .feedback-button {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+
+  .drawer-form h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .drawer-form p {
+    margin-bottom: 20px;
+  }
+  
+  .drawer-form .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  .drawer-form button {
+    margin-top: 20px;
+  }
+  
+  
+  .ant-drawer-body .leftContainer {
+    display: flex;
+    width: 100%;
+  }
+  
+  .ant-drawer-body .leftSide {
+    flex: 0 0 50%;
+  }
+  
+  .ant-drawer-body .rightSide {
+    flex: 0 0 50%; 
+  }
+.wigthBold{
+    font-weight: 900;
+    font-size: 18px;
+}
+.cardTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
