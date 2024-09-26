@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Avatar, Card, Button, Drawer, Form, Input } from 'antd';
 import "./LeftSide.css"
+import { UnorderedListOutlined } from '@ant-design/icons';
 function LeftSide({ setViewMode }) {
     const [isDrawerVisible, setIsDrawerVisible] = useState(false); // State to control drawer visibility
     const [formData, setFormData] = useState({
@@ -82,8 +83,8 @@ function LeftSide({ setViewMode }) {
                 }}>
                 <p>View Toggle</p>
                 <Button.Group className="toggle-buttons">
-                    <Button onClick={() => setViewMode('grid')}>Grid View</Button>
-                    <Button onClick={() => setViewMode('list')}>List View</Button>
+                    <Button onClick={() => setViewMode('grid')}><IdcardOutlined /></Button>
+                    <Button onClick={() => setViewMode('list')}><UnorderedListOutlined /></Button>
                 </Button.Group>
             </Card>
             <Card
