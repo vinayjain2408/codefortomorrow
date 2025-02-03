@@ -1,0 +1,20 @@
+.post-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post-container.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.post-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+}
+
+button {
+    cursor: pointer;
+}
